@@ -1,0 +1,93 @@
+html,body{
+    background-color: #f8f8f8;
+}
+/* 顶部 */
+.store_header{
+    width: 7.5rem;
+    height: 6.44vh;
+    line-height: 6.44vh;
+    text-align: center;
+    background-color: #f8f8f8;
+    position: fixed;
+    top: 0;
+}
+.store_header a{
+    width: 0.54rem;
+    height: 4vh;
+    position: absolute;
+    left: 0.25rem;
+    top: -0.2vh;
+    border-radius: 50%;
+}
+.store_header img{
+    width: 0.54rem;
+    height: 4vh;
+    border-radius: 50%;
+}
+.store_header span{
+    font-family: "Simhei";
+    font-size: 0.38rem;
+    color: #061010;
+}
+/* xinxi */
+.con{
+    width: 7.03rem;
+    height: 15vh;
+    background-color: #fff;
+    margin: auto;
+    position: relative;
+}
+.con_left{
+    float: left;
+    width: 1.98rem;
+    height: 15vh;
+    line-height: 15vh;
+    text-align: center;
+}
+.con_left img{
+    width: 1.63rem;
+    height: 12.21vh;
+}
+.con_right{
+    float: left;
+}
+.con_right p:nth-child(1){
+    position: absolute;
+    top: 2.24vh;
+    font-family: "Simhei";
+    font-size: 0.32rem;
+    color: #061010;
+}
+.con_right p:nth-child(2){
+    font-family: "Simhei";
+    font-size: 0.24rem;
+    color: #666;
+    position: absolute;
+    top:7vh;
+}
+.con_right p:nth-child(2) img{
+    width: 0.25rem;
+     height: 1.9vh;
+}
+.con_right p:nth-child(3){
+    font-family: "Simhei";
+    font-size: 0.24rem;
+    color: #666;
+    position: absolute;
+    top: 10vh
+}
+.con_right p:nth-child(3) img{
+    width: 0.2rem;
+    height: 2vh;
+    margin-left: 0.03rem;
+}
+.words{
+    width: 6.7rem;
+    padding: 1.9vh 0.4rem;
+}
+.words p{
+    font-family: "Simhei";
+    font-size: 0.28rem;
+    color: #061010;
+    line-height: 0.4rem;
+}    

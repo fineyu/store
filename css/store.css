@@ -1,0 +1,181 @@
+html,body{
+    background-color: #f8f8f8;
+}
+/* 顶部 */
+.store_header{
+    width: 7.5rem;
+    height: 6.44vh;
+    line-height: 6.44vh;
+    text-align: center;
+    background-color: #f8f8f8;
+    position: fixed;
+    top: 0;
+}
+.store_header a{
+    width: 0.54rem;
+    height: 4vh;
+    position: absolute;
+    left: 0.25rem;
+    top: -0.2vh;
+    border-radius: 50%;
+}
+.store_header img{
+    width: 0.54rem;
+    height: 4vh;
+    border-radius: 50%;
+}
+.store_header span{
+    font-family: "Simhei";
+    font-size: 0.38rem;
+    color: #061010;
+}
+.banner{
+    width: 7.5rem;
+    height: 18vh;
+    background-image: url(../img/dianpuguanggaotu@2x.png);
+    background-size: 100%;
+}
+.banner_tit{
+    width: 7.05rem;
+    height: 6.44vh;
+    background-color: #fff;
+    margin: auto;
+}
+.banner_tit span{
+    display: block;
+    float: left;
+    width: 33.3%;
+    height: 6.44vh;
+    line-height: 6.44vh;
+    text-align: center;
+    color: #061010;
+    font-family: "Simhei";
+    font-size: 0.32rem;
+}
+.green{
+    color: #57c340 !important;
+}
+/* 店铺信息 */
+.shop_name{
+    width: 6.9rem;
+    height: 7.12vh;
+    line-height: 7.12vh;
+    padding: 0 0.3rem;
+    background-color: #fff;
+    margin: 1vh 0;
+}
+.shop_name .name_left{
+    float: left;
+}
+.name_left img{
+    width: 0.62rem;
+    height: 4.64vh;
+}
+.name_left span{
+    font-family: "Simhei";
+    font-size: 0.32rem;
+    color: #061010;
+    padding-left: 0.2rem;
+}
+.name_right{
+    float: right;
+}
+.name_right{
+    width: 0.2rem;
+    height: 2.4vh;
+}
+/* 详细内容 */
+.product_details{
+    width: 6.98rem;
+    padding: 0 0.26rem;
+    height: 30.5vh;
+    margin-bottom: 0.9vh;
+}
+.product_details .product_left,.product_right{
+    width: 49.3%;
+    height: 30.5vh;
+    background-color: #fff;
+    
+}
+.product_left{
+    margin-right: 0.09rem;
+    float: left;
+}
+.product_right{
+    float: right;
+}
+.product_img img{
+    width: 3.47rem;
+    height: 21.5vh;
+}
+.product_word h5{
+    font-family: "Simhei";
+    font-size: 0.26rem;
+    padding: 0.02rem  0 0.02rem 0.15rem;
+}
+.product_word p{
+    font-family: "Simhei";
+    font-size: 0.2rem;
+    color:#999;
+    padding: 0.02rem  0 0.02rem 0.15rem;
+}
+.product_word span{
+    display: block;
+    font-size: 0.28rem;
+    color:#060101;
+    padding: 0.02rem  0 0.02rem 0.15rem;
+    position: absolute;
+    bottom: 0.1vh;
+}
+.product_word{
+    position: relative;
+    height: 9vh;
+    /* width: 6.98rem; */
+}
+.product_word img{
+    width: 0.48rem;
+    height: 3.59vh;
+    position: absolute;
+    bottom: 0.1vh;
+    right: 0.15rem;position: absolute;
+    bottom: 0.1vh;
+    right: 0.15rem;
+}
+.footer{
+    width: 7.5rem;
+    height: 7.34vh;
+    line-height: 7.34vh;
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+}
+.footer_right{
+    width: 3.75rem;
+    height: 7.34vh;
+    float: left;
+    background-color: #fff;
+    text-align: center;
+}
+.footer_left{
+    width: 3.75rem;
+    height: 7.34vh;
+    float: left;
+    background: #fff;
+    text-align: center;
+}
+.none{
+    display: none;
+}
+.footer_right img{
+    width: 0.4rem;
+    height: 2.64vh;
+}
+
+.footer_left img{
+    width: 0.34rem;
+    height: 2.7vh;
+}
+.back{
+    background-color: #57c340 !important;
+    color: #fff !important;
+}
